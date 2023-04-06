@@ -63,7 +63,7 @@ function App() {
                     <Col>
                         <Navbar>
                             <Container fluid>
-                                <p style={{ color: "#0f5b7a" }} className="mt-3 fs-6 fw-bold">&#128075;&nbsp; Hey, FIREBASE!</p>
+                                <p style={{ color: "#0f5b7a" }} className="mt-3 fs-6 fw-bold">&#128075;&nbsp; Hey, CHRISTOFER!</p>
                                 <Navbar.Toggle />
                                 <Navbar.Collapse className="justify-content-end">
                                     <Navbar.Text>
