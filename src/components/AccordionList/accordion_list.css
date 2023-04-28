@@ -1,0 +1,8 @@
+.expanded-image {
+    width: 100%;
+    height: auto;
+}
+
+.lesson-accordion * {
+    box-shadow: none !important;
+}

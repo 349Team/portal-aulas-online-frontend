@@ -1,0 +1,33 @@
+body {
+  background-color: '#FFF';
+  color: BLACK;
+}
+
+.titulo {
+  padding: 20px;
+  color: BLACK;
+}
+
+.formulario {
+  background-color: rgb(44, 60, 101);
+  color: BLACK;
+}
+
+.link-limpo:hover {
+  text-decoration: none;
+}
+
+.link-limpo {
+  text-decoration: none;
+}
+
+.link-termos {
+  color: #1dbfb0;
+  text-decoration-color: #1dbfb0;
+  text-decoration: none;
+}
+
+.link-termos:hover {
+  color: #1dbfb0;
+  text-decoration: underline;
+}

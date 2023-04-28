@@ -1,0 +1,18 @@
+.code-span {
+  width: 10rem;
+  text-align: left;
+}
+
+.flag {
+  border-radius: 10px;
+  padding: 2px 10px;
+  color: white;
+}
+
+.flag-used {
+  background-color: #198754;
+}
+
+.flag-not-used {
+  background-color: rgb(209, 209, 9);
+}

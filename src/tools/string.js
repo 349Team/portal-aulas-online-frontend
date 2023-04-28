@@ -1,0 +1,1 @@
+export const cut = (phrase, size) => phrase.slice(0, size)

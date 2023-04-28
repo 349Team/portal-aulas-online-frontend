@@ -1,0 +1,1 @@
+export const BASE_URL = "https://portal-aulas-api.fly.dev"

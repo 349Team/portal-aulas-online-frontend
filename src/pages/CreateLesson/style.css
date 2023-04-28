@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(248, 249, 250);
+}
+
+.formulario-cadastro {
+  box-shadow: 1px 1px 5px rgb(179, 179, 179);
+  margin-bottom: 10px;
+}
+
+.container-new-lesson .form-label {
+  margin-bottom: 0;
+}
+
+.input-anotation {
+  font-size: 13px;
+  color: lightslategray;
+}
+
+.container-new-lesson .register-btn {
+    background-color: #198754;
+    border-color: #198754;
+}
+.container-new-lesson .submit-form:active {
+  background-color: white;
+  color: #198754;
+  border-color: white;
+}
+
+.container-lesson h2 {
+  font-weight: bold;
+  color: #198754;
+}
+
+.container-lesson input,
+.container-new-lesson textarea,
+.container-lesson .submit-form {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.container-new-lesson .image-for-input-file {
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+.container-new-lesson .error {
+  border-color: #dc3545 !important;
+  color: #dc3545 !important;
+}
+
+.container-new-lesson .ok {
+  border-color: #198754 !important;
+  color: #198754 !important;
+}
+
+.container-new-lesson .file-input-span .ok,
+.container-new-lesson .file-input-span .error {
+  font-weight: bold;
+}
+
+.container-lesson .pl0 {
+  padding-left: 0 !important;
+}
+
+.container-lesson .pr0 {
+  padding-right: 0 !important;
+}
+
+.container-new-lesson img.image-for-input-file {
+  max-height: 50vh;
+}
+
+.container-new-lesson textarea.input-description {
+  height: 20vh;
+}
+
+.container-new-lesson textarea.input-content {
+  height: 50vh;
+}
+
+.container-lesson .input-learning:focus {
+  border: 1px solid #ced4da;
+}
+
+.container-lesson .submit-form-learning, .container-lesson .submit-add-lesson {
+  font-weight: bold;
+}
+
+.container-lesson .submit-form-learning, .container-lesson .submit-add-lesson {
+  margin-left: 5px;
+  width: calc(20% - 5px);
+  border: 2px solid #198754;
+  background-color: #198754;
+}
+
+.container-lesson .submit-form-learning:active {
+  border: 2px solid white;
+  background-color: white;
+  color: #198754;
+}
+
+.container-lesson .remove-learning {
+  margin-left: 5px;
+  width: calc(10% - 5px);
+  border: 2px solid #dc3545;
+  background-color: #dc3545;
+}
+
+.container-lesson .remove-learning:active {
+  background-color: white;
+  color: #dc3545;
+  border: 2px solid white;
+}
+
+.container-lesson .label-submit-learning span {
+  color: #198754;
+  font-weight: bold;
+}
+
+.container-new-lesson textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.container-new-lesson .alert {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .container-lesson .pl0,
+  .container-lesson .pr0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .container-new-lesson img.image-for-input-file {
+    height: 30vh;
+  }
+}
